@@ -2,7 +2,7 @@
   "info": {
     "year": "2026",
     "version": "dataset",
-    "description": "Exported from roboflow.com - Cleaned version with 3 annotations",
+    "description": "Cleaned dataset - Only original image_id 6, 11, 19",
     "contributor": "",
     "url": "https://app.roboflow.com/datasets/syncpose/dataset",
     "date_created": "2026-04-20T12:50:13+00:00"
@@ -26,52 +26,79 @@
       "id": 0,
       "license": 1,
       "file_name": "TRAIN_FIRE1.jpg",
-      "height": 333,
-      "width": 500,
+      "height": 512,
+      "width": 773,
       "date_captured": "2026-04-20T12:50:13+00:00"
     },
     {
       "id": 1,
       "license": 1,
       "file_name": "TRAIN_FIRE2.jpg",
-      "height": 500,
-      "width": 375,
+      "height": 375,
+      "width": 500,
       "date_captured": "2026-04-20T12:50:13+00:00"
     },
     {
       "id": 2,
       "license": 1,
       "file_name": "TRAIN_FIRE3.jpg",
-      "height": 375,
-      "width": 500,
+      "height": 500,
+      "width": 375,
       "date_captured": "2026-04-20T12:50:13+00:00"
     }
   ],
   "annotations": [
     {
-      "id": 6,
+      "id": 10,
       "image_id": 0,
       "category_id": 1,
-      "bbox": [165, 185, 65, 113],
-      "area": 7345,
+      "bbox": [244, 23, 216, 304],
+      "area": 65664,
       "segmentation": [],
       "iscrowd": 0
     },
     {
-      "id": 11,
+      "id": 17,
       "image_id": 1,
       "category_id": 1,
-      "bbox": [160, 124, 163, 240],
-      "area": 39120,
+      "bbox": [118, 216, 86, 51],
+      "area": 4386,
+      "segmentation": [],
+      "iscrowd": 0
+    },
+    {
+      "id": 18,
+      "image_id": 1,
+      "category_id": 1,
+      "bbox": [285, 240, 90, 37],
+      "area": 3330,
       "segmentation": [],
       "iscrowd": 0
     },
     {
       "id": 19,
-      "image_id": 2,
+      "image_id": 1,
       "category_id": 1,
       "bbox": [188, 182, 56, 57],
       "area": 3192,
+      "segmentation": [],
+      "iscrowd": 0
+    },
+    {
+      "id": 20,
+      "image_id": 1,
+      "category_id": 1,
+      "bbox": [216, 11, 162, 206],
+      "area": 33372,
+      "segmentation": [],
+      "iscrowd": 0
+    },
+    {
+      "id": 29,
+      "image_id": 2,
+      "category_id": 1,
+      "bbox": [116, 84, 163.58, 184],
+      "area": 30098.72,
       "segmentation": [],
       "iscrowd": 0
     }
